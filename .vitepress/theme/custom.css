@@ -71,11 +71,6 @@ img {
     text-decoration: underline;
 }
 
-.VPHome #notice {
-    position: sticky;
-    top: var(--vp-nav-height);
-}
-
 @media (min-width: 640px) {
     :root {
         --vp-home-hero-image-filter: blur(56px);
@@ -97,5 +92,10 @@ img {
 
     .VPNavBar:not(.home.top) {
         backdrop-filter: blur(12px);
+    }
+
+    .VPHome #notice {
+        position: sticky;
+        top: var(--vp-nav-height);
     }
 }
