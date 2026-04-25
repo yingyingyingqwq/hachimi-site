@@ -26,7 +26,8 @@ No. Apple devices are very tightly locked down, making it very difficult to crea
 
 ## How do I uninstall Hachimi?
 
-The installer has an uninstall option. If you no longer have it, you can download the latest one and use that.
+**Windows**: The installer has an uninstall option. If you no longer have it, you can download the latest one and use that.  
+**Android**: You will have to uninstall the patched game and install the original one normally.
 
 ## Will I get banned for using Hachimi? Have there been bans?
 
@@ -40,7 +41,7 @@ This is what the message should look like when you are banned:
 
 ## Can I play JP and Global simultaneously?
 
-Yes, but you will need to use a workaround if using the DMM version. Check out [these steps](troubleshooting.md#error-501).
+Yes, but you will need to use a workaround if using the DMM version. Check out [these steps](troubleshooting#error-501).
 
 ## What is the difference between the Physics Update Modes?
 
@@ -58,23 +59,23 @@ Uninstalling the game is only required for first-time install, not any form of u
 
 ### Game
 
-An in-game notification to update from the Play Store means you need to update the game itself by downloading the newest install package. You must then install it through UmaPatcher, which will apply the newest available Hachimi Edge release.
+An in-game notification to update from the Play Store means you need to update the game itself by downloading the newest game APKs. You must then install those new files through UmaPatcher, which will also apply the newest available Hachimi Edge release.
 
-Follow the [install guide](getting-started-jp#android) from step 4.
+Follow the [install guide](installing-android#using-umapatcher-edge-recommended) from step 4.
 
 ### Hachimi
 
-When a new version of Hachimi Edge is released, you can choose to install it for new features or fixes. You don't **have** to do this immediately. Doing so requires repatching.
+When a new version of Hachimi Edge is released, you can choose to install it for new features or fixes. You don't **have** to do this immediately. Doing so requires patching again.
 
-Follow the [install guide](getting-started-jp#android) from step 5 to simply reinstall the current game version, or from step 4 if you no longer have an install package.
+Follow the [install guide](installing-android#using-umapatcher-edge-recommended) from step 5 to simply reinstall the current game version, or from step 4 if you no longer have the latest game APK files.
 
 ### UmaPatcher
 
-Updating UmaPatcher is only needed in certain cases, like when you face install issues. There are no benefits to this in-game.
+As UmaPatcher is a helper to patch and install the modded game, updating it is only needed in certain cases, like when you face install issues. There are no benefits to this in-game. In fact, as long as you have no issues, we recommend using your current version.
 
 1. If you haven't done it before, Settings -> Export signing key.
-1. Uninstall UmaPatcher.
-1. Follow the [install guide](getting-started-jp#android) from step 3, as required for your case.
+1. Download and install [the latest UmaPatcher Edge](https://github.com/kairusds/UmaPatcher-Edge/releases/latest/download/app-release.apk), updating the app in-place.
+1. (*Optional*) Continue what you were attempting.
 
 ## I turned off Hachimi GUI/Overlay, how do I turn it back on?
 
@@ -85,6 +86,8 @@ If you're uncomfortable with this or run into issues, it's safe to delete the co
 
 ## How do I find the game install folder?
 
-**Steam**: Right-click the game in Steam -> Manage -> Browse local files  
-**DMM**: Click the 3 dots next to the game name in DMM -> 🛈 icon -> 📁 icon  
-**Android**: Not accessible, but some data is stored at `Android/media/jp.co.cygames.umamusume` (might differ with phone brand)
+**Steam**: Right-click the game in Steam -> Manage -> Browse local files
+
+**DMM**: Click the 3 dots next to the game name in DMM -> 🛈 icon -> 📁 icon
+
+**Android**: Not accessible normally, but some data is stored at Android/media/jp.co.cygames.umamusume (might differ with phone brand). For the full access, you need to have the game patched with ReVanced's `"Export internal data documents provider"` patch and use a file explorer with a document provider selector to open it or be rooted and access `/data/data/jp.co.cygames.umamusume/files`. (The tutorials on how to do these are out of scope for the project, so use Google.)

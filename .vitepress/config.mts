@@ -25,6 +25,8 @@ const commonSidebarConfig: VitePressSidebarOptions = {
     'hachimi',
     'about.md',
     'getting-started.md',
+    'installing-windows.md',
+    'installing-android.md',
     'getting-started-jp.md',
     'getting-started-other.md',
     'troubleshooting.md',
@@ -71,7 +73,10 @@ const vitePressConfig: UserConfig = {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/kairusds/Hachimi-Edge' },
       { icon: 'discord', link: 'https://discord.gg/hachimimod' }
-    ]
+    ],
+    notice: {
+      message: 'Android will become a locked-down platform in September 2026. This will affect Hachimi Edge. <a href="https://keepandroidopen.org">See how you can help</a>.'
+    }
   },
   locales: {
     root: {

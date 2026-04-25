@@ -2,7 +2,7 @@
 
 [Submit your own translation source](https://github.com/UmaTL/hachimi-meta)
 
-## [Mod](https://github.com/kairusds/Hachimi-Edge)
+## [Hachimi Edge](https://github.com/kairusds/Hachimi-Edge)
 
 - Original Author: LeadRDRK ([Hachimi](https://github.com/Hachimi-Hachimi/Hachimi))
 - Edge Maintainer: harveyhans
@@ -51,3 +51,9 @@ Alternate versions:
 - Maintainer: UmamusumeFR (?)
 - Contributors:
   [![Graph](https://contrib.rocks/image?repo=UmamusumeFR/hachimi-tl-fr)](https://github.com/UmamusumeFR/hachimi-tl-fr/graphs/contributors)
+
+## [Portuguese translations (Global)](https://github.com/Ahtheerr/hachimi-tl-br)
+
+- Maintainer: Ahtheerr
+- Contributors:
+  [![Graph](https://contrib.rocks/image?repo=Ahtheerr/hachimi-tl-br)](https://github.com/Ahtheerr/hachimi-tl-br/graphs/contributors)
